@@ -428,10 +428,7 @@ input[type="submit"]:hover {
     display: none !important;
   }
 }
-@media (min-width: 769px) {
-  header {
-    padding: 1rem 5rem;
-  }
+
   /* ================= MAIN ================ */
 
   /* -------- HOME SECTION -------------- */
