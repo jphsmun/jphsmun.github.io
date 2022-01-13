@@ -3,11 +3,11 @@
     margin: 0
   }
   .parent:first-of-type {
-    background: #ffffff url("images/nnn.jpg") no-repeat center center fixed;
+    background: #ffffff url("nnn.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(2) {
-    background: #ffffff url("images/delegate.jpg") no-repeat center center fixed;
+    background: #ffffff url("delegate.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(3) {
