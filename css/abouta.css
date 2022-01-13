@@ -3,7 +3,7 @@
     margin: 0
   }
   .parent:first-of-type {
-    background: #ffffff url("https://static.timesofisrael.com/www/uploads/2021/09/AP21265494407156.jpg") no-repeat center center fixed;
+    background: #ffffff url("images/nnn.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(2) {
