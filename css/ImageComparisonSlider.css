@@ -1,0 +1,60 @@
+.image-comparator {
+  width: 100%;
+  display: inline-block;
+  padding: 6px 6px 25px; }
+  .image-comparator .images {
+    width: 100%;
+    height: 97%;
+    height: calc(100% - 35px);
+    overflow: hidden;
+    position: relative; }
+    .image-comparator .images a {
+      max-width: inherit; }
+      .image-comparator .images a:hover img {
+        opacity: 1.0; }
+    .image-comparator .images img {
+      max-width: inherit !important;
+      width: 100%;
+      border: 0;
+      padding: 0; }
+    .image-comparator .images .left, .image-comparator .images .right {
+      overflow: hidden;
+      width: 100%; }
+    .image-comparator .images .right {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .image-comparator .images .ic-clear {
+      clear: both; }
+  .image-comparator .slider {
+    bottom: 0;
+    margin-top: 10px; }
+  .image-comparator.overlay .left {
+    position: absolute;
+    top: 0;
+    z-index: 1; }
+  .image-comparator.overlay .right {
+    position: relative;
+    z-index: 0; }
+  .image-comparator .noUi-target {
+    border-radius: 2px;
+    border: 1px solid #c3c3c3; }
+  .image-comparator .noUi-horizontal {
+    height: 12px; }
+    .image-comparator .noUi-horizontal .noUi-handle {
+      width: 22px;
+      height: 22px;
+      border-radius: 2px;
+      border-color: #c3c3c3;
+      left: -10px;
+      top: -6px; }
+      .image-comparator .noUi-horizontal .noUi-handle:before, .image-comparator .noUi-horizontal .noUi-handle:after {
+        display: none; }
+
+@media all and (max-width: 500px) {
+  .image-comparator .noUi-horizontal .noUi-handle {
+    width: 34px;
+    height: 28px;
+    left: -17px; } }
+
+/*# sourceMappingURL=ImageComparisonSlider.css.map */
