@@ -11,15 +11,15 @@
     background-size: cover;
   }
   .parent:nth-of-type(3) {
-    background: #ffffff url("http://s12.favim.com/orig/160220/flowers-grunge-hipster-photography-Favim.com-4023702.jpg") no-repeat center center fixed;
+    background: #ffffff url("delegate.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(4) {
-    background: #ffffff url("http://data.whicdn.com/images/59213807/original.png") no-repeat center center fixed;
+    background: #ffffff url("delegate.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:last-of-type {
-    background: #ffffff url("http://s3.favim.com/orig/47/beautiful-cute-flowers-rain-red-Favim.com-436699.jpg") no-repeat center center fixed;
+    background: #ffffff url("delegate.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent {
