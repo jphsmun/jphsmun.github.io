@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Unix timestamp (in seconds) to count down to
-  var twoDaysFromNow = (new Date("Feb 18, 2022").getTime() / 1000) + (86400 * 2) + 1;
+  var TimeLeft = (new Date("Feb 18, 2022").getTime() / 1000) + (86400 * 2) + 1;
 
   // Set up FlipDown
-  var flipdown = new FlipDown(twoDaysFromNow)
+  var flipdown = new FlipDown(1645122601, {
+    theme: 'light',
+    countdown: true,})
 
     // Start the countdown
     .start()
@@ -13,14 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .ifEnded(() => {
       console.log('The JPHS MUN 2022 has Started');
     });
-
-  // Toggle theme
-  var interval = setInterval(() => {
-    let body = document.body;
-    body.classList.toggle('light-theme');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-  }, 5000);
 
   // Show version number
   var ver = document.getElementById('ver');
