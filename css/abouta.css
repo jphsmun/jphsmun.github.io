@@ -11,15 +11,15 @@
     background-size: cover;
   }
   .parent:nth-of-type(3) {
-    background: #ffffff url("madhum.png ") no-repeat center center fixed;
+    background: #ffffff url("madhum(1).png ") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(4) {
-    background: #ffffff url("madhum.png") no-repeat center center fixed;
+    background: #ffffff url("madhum(1).png") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:last-of-type {
-    background: #030303 url("madhum.png ") no-repeat center center fixed;;
+    background: #030303 url("madhum(1).png ") no-repeat center center fixed;;
     background-size: cover;
   }
   .parent {
