@@ -50,6 +50,8 @@ body.light-theme .buttons .button:hover {
 
 .example .flipdown {
   margin: auto;
+  margin-left: 1%;
+
 }
 
 .example h1 {
