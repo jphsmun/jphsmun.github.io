@@ -19,6 +19,8 @@ To run simply start a live server after cloning.
 
 - [@JPHS MUN](https://github.com/jphsmun)
 
+- [@adityaujwal](https://github.com/adityaujwal)
+
 ## License
 
    [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://choosealicense.com/licenses/gpl-3.0/)
