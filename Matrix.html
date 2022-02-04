@@ -30,10 +30,12 @@ h1{
   color: white;
   float: right;
   margin-left: 5px;
+  border-radius: 15px; 
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+  border-radius: 15px; 
 }
 
 .collapsible {
@@ -47,11 +49,14 @@ h1{
   border: none;
   outline: none;
   font-size: 20px;
+  border-radius: 15px; 
+
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #444;
+  border-radius: 15px; 
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -66,6 +71,7 @@ h1{
   max-height: 2;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border-radius: 15px; 
 }
 </style>
 </head>
@@ -99,7 +105,7 @@ h1{
 </div>
 
 <div class="container">
-<button type="button" class="collapsible">International Press</button>
+<button type="button" class="collapsible">International Press</button> 
 <div class="content">
   <p>New York Times</p>
   <p>Korean Herald</p>
