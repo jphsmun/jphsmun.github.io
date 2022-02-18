@@ -17,7 +17,7 @@
   --third-color: hsl(220, 36%, 28%);
   --white-color: #fbfbfb;
   --white-color-alt: hsl(12, 14%, 93%);
-  --dark-color: hsl(300, 100%, 0%);
+  --dark-color: #333333;
 }
 
 /* ================= BASE ==================== */
@@ -55,11 +55,6 @@ header {
 }
 .company-logo {
   font-size: 2.5rem;
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -73,16 +68,12 @@ header {
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
   position: relative;
-  background: -webkit-linear-gradient(
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .nav-link::before {
   content: "";
-  background: linear-gradient(var(--primary-color), var(--primary-color-alt));
   width: 100%;
   height: 0.05rem;
   position: absolute;
@@ -102,7 +93,6 @@ header {
 .bx-menu,
 .bx-x {
   cursor: pointer;
-  background: -webkit-linear-gradient(
     120deg,
     var(--primary-color-alt),
     var(--primary-color)
@@ -123,11 +113,7 @@ header {
 /* .home-computer-container {} */
 
 .slogan .company-title {
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 2rem;
@@ -593,7 +579,7 @@ input[type="submit"]:hover {
   --third-color: hsl(220, 36%, 28%);
   --white-color: #fbfbfb;
   --white-color-alt: hsl(12, 14%, 93%);
-  --dark-color: hsl(300, 100%, 0%);
+  --dark-color: #333333;
 }
 
 /* ================= BASE ==================== */
@@ -793,11 +779,6 @@ header {
 }
 .product::before {
   content: "";
-  background-image: linear-gradient(
-    to bottom,
-    hsla(29, 72%, 83%, 0.438),
-    hsla(9, 94%, 61%, 0.507)
-  );
   position: absolute;
   top: 0;
   bottom: 0;
