@@ -12,7 +12,7 @@ function getInfo() {
 	for(var i = 0; i < objPeople.length; i++) {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-			window.location.replace("dashboard.html");			// stop the function if this is found to be true
+			window.location.replace("Reached.html");			// stop the function if this is found to be true
 			return
 		}
 	}
