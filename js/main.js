@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   var TimeLeft = (new Date("May 5, 2023").getTime() / 1000) + (86400 * 2) + 1;
 
   // Set up FlipDown
-  var flipdown = new FlipDown(1645122601, {
+  var flipdown = new FlipDown(1683253800, {
     theme: 'light',
     countdown: true,})
 
