@@ -59,7 +59,7 @@
 a:link {
   color: white;
 
-=======
+}
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
@@ -70,6 +70,10 @@ a:link {
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
+}
+
+p{
+  margin-top:10px;
 }
 
 .feature-icon {

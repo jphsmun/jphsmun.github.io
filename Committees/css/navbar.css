@@ -90,17 +90,7 @@ header {
 .menu-toggle {
   display: none;
 }
-.bx-menu,
-.bx-x {
-  cursor: pointer;
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: none !important;
-}
+
 
 /* ================= MAIN ================ */
 
@@ -558,8 +548,9 @@ input[type="submit"]:hover {
     color: hsla(0, 0%, 98%, 0.322);
     font-size: 0.8rem;
   }
-}
-=======
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400");
 
 *,
@@ -1129,4 +1120,4 @@ input[type="submit"]:hover {
     color: hsla(0, 0%, 98%, 0.322);
     font-size: 0.8rem;
   }
-}
+
