@@ -1,7 +1,7 @@
 
-# JPHS MUN 2022
+# JPHS MUN 2023
 
-The official website for the JPHS MUN 2022
+The official website for the JPHS MUN 2023
 
 
 

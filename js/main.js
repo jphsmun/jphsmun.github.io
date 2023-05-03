@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Do something when the countdown ends
     .ifEnded(() => {
-      console.log('The JPHS MUN 2022 has Started');
+      console.log('The JPHS MUN 2023 has Started');
     });
 
   // Show version number
