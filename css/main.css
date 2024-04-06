@@ -4,7 +4,7 @@ TABLE OF CONTENTS
 2.	Header
 	2.1	Header Top Bar
 	2.2	Header Bottom Bar 
-	2.3 Logo
+	2.3 logof
 	2.4 Header Controls
 	2.5 Navigation
 	2.6x Header Widgets
@@ -363,44 +363,44 @@ TABLE OF CONTENTS
    
    
    /************************************************
-   Logo
+   logof
     ************************************************/
     
-   .logo a, .logo a img {
+   .logof a, .logof a img {
        display: block;
    }
    
-       /*Logo - Float Left*/
+       /*logof - Float Left*/
    
-   .style1 .logo {
+   .style1 .logof {
        margin-left: 30px;
-       padding:20px 0;	/*opt-logo-padding*/
+       padding:20px 0;	/*opt-logof-padding*/
        float: left;
    }
-   .layout-border-header-top .style1 .logo {
+   .layout-border-header-top .style1 .logof {
        margin-left: 0px;
    }
-   .style1 .be-wrap  .logo {
+   .style1 .be-wrap  .logof {
        margin-left:0;
    }
-   .style4 .logo {
+   .style4 .logof {
        margin-left: 30px;
-       padding:20px 0;	/*opt-logo-padding*/
+       padding:20px 0;	/*opt-logof-padding*/
        float: left;
    }
-   .style4 .be-wrap .logo {
+   .style4 .be-wrap .logof {
        margin-left : 0;
    }
    
-   #left-header-mobile .logo {
+   #left-header-mobile .logof {
        margin-left: 30px;
-       padding:20px 0;	/*opt-logo-padding*/
+       padding:20px 0;	/*opt-logof-padding*/
        float: left;
    }
    
-       /*Logo - Float Right*/
+       /*logof - Float Right*/
    
-   .style5 .logo {
+   .style5 .logof {
        position: absolute;
        left: 50%;
        -webkit-transform: translateX(-50%);
@@ -409,7 +409,7 @@ TABLE OF CONTENTS
    
    }
    
-       /*Logo - Absolute Position to Left*/
+       /*logof - Absolute Position to Left*/
    
    .style2 #header-wrap{
        position: relative;
@@ -423,27 +423,27 @@ TABLE OF CONTENTS
    /*.style4 #header-wrap{
        padding-right: 30px;
    }*/
-   .style3 .logo {
+   .style3 .logof {
        position: absolute;
        left: 30px;
-       padding: 20px 0; /*opt-logo-padding*/
+       padding: 20px 0; /*opt-logof-padding*/
    }
-   .style3 .be-wrap .logo {
+   .style3 .be-wrap .logof {
        left : 0;
    }
-   .layout-border-header-top .style3 .logo {
+   .layout-border-header-top .style3 .logof {
        left: 0px;
    }
-       /*Logo - Center Align*/
+       /*logof - Center Align*/
    
-   .style2 .logo {
+   .style2 .logof {
        text-align: center;
    }
-   .style2 .logo a{
+   .style2 .logof a{
        display: inline-block;
        vertical-align: middle;
    }
-   .style6 .logo {
+   .style6 .logof {
        margin: 25px auto;
        display: inline-block;
        vertical-align: top;
@@ -884,38 +884,38 @@ TABLE OF CONTENTS
        background-color: #333;
    }
    
-   /* Old Logo Code */
+   /* Old logof Code */
    
-   /*body.header-transparent .logo img,
-   body .logo img.sticky-logo {
+   /*body.header-transparent .logof img,
+   body .logof img.sticky-logof {
        display: none;
    }
-   body #header-inner-wrap.no-transparent.top-animate .logo img.sticky-logo {
+   body #header-inner-wrap.no-transparent.top-animate .logof img.sticky-logof {
        display: block;
    }
-   body #header-inner-wrap.no-transparent.top-animate .logo img.normal-logo {
+   body #header-inner-wrap.no-transparent.top-animate .logof img.normal-logof {
        display: none;
    }
-   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logo img.normal-logo,
-   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logo img.sticky-logo,
-   body.header-transparent #header-inner-wrap .logo img.transparent-logo {
+   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logof img.normal-logof,
+   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logof img.sticky-logof,
+   body.header-transparent #header-inner-wrap .logof img.transparent-logof {
        display: block;
    }
-   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logo img.transparent-logo,
-   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logo img.normal-logo {
+   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logof img.transparent-logof,
+   body.header-transparent #header-inner-wrap.no-transparent.top-animate .logof img.normal-logof {
        display: none;
    }
-   .light-scheme-logo {
+   .light-scheme-logof {
        display: none !important;
    }
-   body.header-transparent #header-inner-wrap.background--dark.transparent .logo img.light-scheme-logo {
+   body.header-transparent #header-inner-wrap.background--dark.transparent .logof img.light-scheme-logof {
        display: block !important;
    }
-   body.header-transparent #header-inner-wrap.background--dark.transparent .logo img.dark-scheme-logo {
+   body.header-transparent #header-inner-wrap.background--dark.transparent .logof img.dark-scheme-logof {
        display: none !important;
    }*/
    
-   .logo img {
+   .logof img {
        display: block;
        position: absolute;
        top: 50%;
@@ -925,16 +925,16 @@ TABLE OF CONTENTS
        visibility: hidden;
    }
    
-   /* Normal Logo */
-   /* .logo .normal-logo {
+   /* Normal logof */
+   /* .logof .normal-logof {
        position: relative;
        top: 0;
        left: 0;
        transform: translateY(0) translateX(0); 
    } */
    
-   /*Sticky Logo*/
-   .top-animate .logo .sticky-logo {
+   /*Sticky logof*/
+   .top-animate .logof .sticky-logof {
        position: relative;
        top: 0;
        left: 0;
@@ -943,7 +943,7 @@ TABLE OF CONTENTS
        opacity: 1;
        transition : opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
    }
-   /* .top-animate .logo img:not(.sticky-logo) {
+   /* .top-animate .logof img:not(.sticky-logof) {
        position: absolute;
        top: 50%;
        left: 50%;
@@ -951,9 +951,9 @@ TABLE OF CONTENTS
        opacity: 0;
    } */
    
-   /*Semi transparent and Transparent Logo*/
-   #header-inner-wrap.transparent:not( .no-transparent ).background--dark .logo .light-scheme-logo,
-   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--dark .logo .light-scheme-logo  {
+   /*Semi transparent and Transparent logof*/
+   #header-inner-wrap.transparent:not( .no-transparent ).background--dark .logof .light-scheme-logof,
+   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--dark .logof .light-scheme-logof  {
        position: relative;
        top: 0;
        left: 0;
@@ -963,8 +963,8 @@ TABLE OF CONTENTS
        transition : opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
    }
    
-   /* #header-inner-wrap.transparent:not( .no-transparent ).background--dark .logo img:not( .light-scheme-logo ),
-   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--dark .logo img:not( .light-scheme-logo ){
+   /* #header-inner-wrap.transparent:not( .no-transparent ).background--dark .logof img:not( .light-scheme-logof ),
+   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--dark .logof img:not( .light-scheme-logof ){
        position: absolute;
        left: 50%;
        top: 50%;
@@ -972,8 +972,8 @@ TABLE OF CONTENTS
        opacity: 0;
    } */
    
-   #header-inner-wrap.transparent:not( .no-transparent ).background--light .logo .dark-scheme-logo,
-   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--light .logo .dark-scheme-logo {
+   #header-inner-wrap.transparent:not( .no-transparent ).background--light .logof .dark-scheme-logof,
+   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--light .logof .dark-scheme-logof {
        position: relative;
        top: 0;
        left: 0;
@@ -983,8 +983,8 @@ TABLE OF CONTENTS
        transition : opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
    }
    
-   body:not( .side-menu-opened ) #header-inner-wrap:not( .transparent ):not( .top-animate ) .logo .normal-logo,
-   body:not( .side-menu-opened ) #header-inner-wrap.transparent:not( .background--dark ):not( .background--light ):not( .top-animate ) .logo .normal-logo {
+   body:not( .side-menu-opened ) #header-inner-wrap:not( .transparent ):not( .top-animate ) .logof .normal-logof,
+   body:not( .side-menu-opened ) #header-inner-wrap.transparent:not( .background--dark ):not( .background--light ):not( .top-animate ) .logof .normal-logof {
        position: relative;
        top: 0;
        left: 0;
@@ -993,8 +993,8 @@ TABLE OF CONTENTS
        visibility: visible;
        transition : opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
    }
-   /* #header-inner-wrap.transparent:not( .no-transparent ).background--light .logo img:not( .dark-scheme-logo ),
-   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--light .logo img:not( .dark-scheme-logo ){
+   /* #header-inner-wrap.transparent:not( .no-transparent ).background--light .logof img:not( .dark-scheme-logof ),
+   #header-inner-wrap.semi-transparent:not( .no-transparent ).background--light .logof img:not( .dark-scheme-logof ){
        position: absolute;
        left: 50%;
        top: 50%;
@@ -1213,7 +1213,7 @@ TABLE OF CONTENTS
    .admin-bar.left-header #sb-left-strip .leftside-menu-controller{
        bottom: 72px;
    }
-   .left-header #sb-left-strip #logo-strip-bar{
+   .left-header #sb-left-strip #logof-strip-bar{
        top: 40px;
        position: absolute;
        width: 100%;
@@ -1428,13 +1428,13 @@ TABLE OF CONTENTS
        margin-left: 0px;
        margin-right:0px;
    }
-   #logo-sidebar {
+   #logof-sidebar {
        text-align: center;
        line-height: normal !important;
        margin: 40px 0px;
    }
-   /*.top-overlay-menu #logo-sidebar,
-   .left-overlay-menu #logo-sidebar{
+   /*.top-overlay-menu #logof-sidebar,
+   .left-overlay-menu #logof-sidebar{
        margin: 60px 0px;
    }*/
    
@@ -5012,7 +5012,7 @@ TABLE OF CONTENTS
        padding-top: 38px;
    }
    
-   .be-sidemenu .special-header-logo,
+   .be-sidemenu .special-header-logof,
    .be-sidemenu .special-header-menu,
    .be-sidemenu .special-header-bottom-text{
        margin-bottom: 30px;
@@ -5021,12 +5021,12 @@ TABLE OF CONTENTS
        width: 100%;
    }
    
-   .be-sidemenu.be-page-stack-right .special-header-logo, 
+   .be-sidemenu.be-page-stack-right .special-header-logof, 
    .be-sidemenu.be-page-stack-right .special-header-menu, 
    .be-sidemenu.be-page-stack-right .special-header-bottom-text {
        padding: 0px 50px;
    }
-   .special-header-logo,
+   .special-header-logof,
    .special-header-bottom-text{
        text-align: center;
    }
@@ -5095,7 +5095,7 @@ TABLE OF CONTENTS
    }
    
    /* .left-static-menu .special-header-bottom-text,
-   .left-static-menu .special-header-logo{
+   .left-static-menu .special-header-logof{
        visibility: hidden;
    } */
    
@@ -5110,13 +5110,13 @@ TABLE OF CONTENTS
            align-items: center;
    }
    
-   .overlay-left-align-menu .be-sidemenu .special-header-logo,
+   .overlay-left-align-menu .be-sidemenu .special-header-logof,
    .overlay-left-align-menu .be-sidemenu .special-header-menu,
    .overlay-left-align-menu .be-sidemenu .special-header-bottom-text{
        padding: 0px;
    }
    
-   .overlay-left-align-menu .special-header-logo{
+   .overlay-left-align-menu .special-header-logof{
        position: absolute;
        top: 40px;
        left: 30px;
