@@ -25,7 +25,7 @@ function getInfo() {
 	for(var i = 0; i < objPeople.length; i++) {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-			window.location.replace("https://dashboard.jphsmun.com");			// stop the function if this is found to be true
+			window.location.replace("https://docs.google.com/document/d/1-RU5wl5ggHoJMifLdy2LGgQkXzSjDtOze4KKMrNrX9k/edit?usp=sharing");			// stop the function if this is found to be true
 			return
 		}
 	}
